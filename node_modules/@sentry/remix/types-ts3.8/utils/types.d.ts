@@ -1,0 +1,7 @@
+export type SentryMetaArgs<MetaFN extends (...args: any) => any> = Parameters<MetaFN>[0] & {
+    data: {
+        sentryTrace: string;
+        sentryBaggage: string;
+    };
+};
+//# sourceMappingURL=types.d.ts.map
