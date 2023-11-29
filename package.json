@@ -128,7 +128,7 @@
     "@types/fs-extra": "^11.0.4",
     "@types/glob": "^8.1.0",
     "@types/morgan": "^1.9.9",
-    "@types/node": "^20.9.0",
+    "@types/node": "^20.10.1",
     "@types/qrcode": "^1.5.5",
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
