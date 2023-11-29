@@ -1,6 +1,0 @@
-import { RemixOptions } from './utils/remixOptions';
-export { remixRouterInstrumentation, withSentry } from './client/performance';
-export { captureRemixErrorBoundaryError } from './client/errors';
-export * from '@sentry/react';
-export declare function init(options: RemixOptions): void;
-//# sourceMappingURL=index.client.d.ts.map
