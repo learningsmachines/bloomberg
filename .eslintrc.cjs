@@ -19,10 +19,6 @@ module.exports = {
       { allowConstantExport: true },
     ],
     "no-empty-pattern": "off",
-    "import/no-duplicates": ["warn", { "prefer-inline": true }],
-    "import/consistent-type-specifier-style": ["warn", "prefer-inline"],
-    "testing-library/no-await-sync-events": "off",
-    "jest-dom/prefer-in-document": "off",
     "import/order": [
       "warn",
       {
