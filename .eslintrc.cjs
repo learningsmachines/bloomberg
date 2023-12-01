@@ -19,31 +19,12 @@ module.exports = {
       { allowConstantExport: true },
     ],
     "no-empty-pattern": "off",
-    "import/order": [
-      "warn",
-      {
-        alphabetize: { order: "asc", caseInsensitive: true },
-        groups: [
-          "builtin",
-          "external",
-          "internal",
-          "parent",
-          "sibling",
-          "index",
-        ],
-      },
-    ],
   },
   overrides: [
     {
       files: ["*.ts", "*.tsx"],
       parserOptions: {
         project: ["tsconfig.json"],
-      },
-      settings: {
-        jest: {
-          version: 28,
-        },
       },
     },
   ],
